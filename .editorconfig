@@ -18,3 +18,11 @@ insert_final_newline = true
 
 [*.md]
 trim_trailing_whitespace = false
+
+
+// Set the default
+"editor.formatOnSave": false,
+// Enable per-language
+"[javascript]": {
+    "editor.formatOnSave": true
+}
